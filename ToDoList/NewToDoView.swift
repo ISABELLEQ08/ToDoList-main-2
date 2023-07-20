@@ -14,7 +14,7 @@ struct NewToDoView: View {
     @State var isImportant: Bool
     var body: some View {
         VStack{
-            Text("Task Title")
+            Text("Task")
                 .font(.title)
                 .fontWeight(.semibold)
                 .foregroundColor(Color(hex:"8b9475"))
